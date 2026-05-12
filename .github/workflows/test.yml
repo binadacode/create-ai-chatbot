@@ -1,0 +1,24 @@
+name: Test Template Generation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install cookiecutter
+      - name: Test template generation
+        run: |
+          cd "{{cookiecutter.project_slug}}"
+          cookiecutter . --no-input -o /tmp/test-output
+          test -f /tmp/test-output/my-project/backend/main.py
+          test -f /tmp/test-output/my-project/frontend/src/App.tsx
