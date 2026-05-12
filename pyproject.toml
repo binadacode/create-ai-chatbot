@@ -31,9 +31,9 @@ dependencies = [
 create-ai-chatbot = "create_ai_chatbot:main"
 
 [project.urls]
-Homepage = "https://github.com/binada2005/create-ai-chatbot"
-Repository = "https://github.com/binada2005/create-ai-chatbot"
-Issues = "https://github.com/binada2005/create-ai-chatbot/issues"
+Homepage = "https://github.com/binadacode/create-ai-chatbot"
+Repository = "https://github.com/binadacode/create-ai-chatbot"
+Issues = "https://github.com/binadacode/create-ai-chatbot/issues"
 
 [tool.setuptools]
 packages = ["create_ai_chatbot"]

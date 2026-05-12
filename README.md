@@ -69,7 +69,7 @@ Open http://localhost:3000 — click the chat button in the bottom-right.
 
 ### Backend → Render
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/YOUR_USERNAME/create-ai-chatbot)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/binadacode/create-ai-chatbot)
 
 1. Push to GitHub
 2. Create new Web Service on Render
@@ -79,7 +79,7 @@ Open http://localhost:3000 — click the chat button in the bottom-right.
 
 ### Frontend → Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_USERNAME/create-ai-chatbot)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/binadacode/create-ai-chatbot)
 
 1. Import repo on Vercel
 2. Set root directory to `frontend`
