@@ -1,0 +1,4 @@
+include LICENSE
+include README.md
+recursive-include create_ai_chatbot/template *
+recursive-include create_ai_chatbot/hooks *

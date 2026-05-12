@@ -1,0 +1,31 @@
+{
+  "name": "create-ai-chatbot",
+  "version": "0.1.0",
+  "description": "Scaffold a full-stack AI chatbot project with FastAPI + React",
+  "type": "module",
+  "bin": {
+    "create-ai-chatbot": "./bin/create-ai-chatbot.js"
+  },
+  "files": [
+    "bin/",
+    "README.md"
+  ],
+  "keywords": [
+    "chatbot",
+    "ai",
+    "fastapi",
+    "react",
+    "scaffolding",
+    "cookiecutter"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/create-ai-chatbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/create-ai-chatbot/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/create-ai-chatbot#readme"
+}

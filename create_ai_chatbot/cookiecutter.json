@@ -1,0 +1,17 @@
+{
+  "project_name": "my-ai-chatbot",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
+  "description": "AI Chatbot powered by OpenRouter",
+  "author": "Anonymous",
+  "version": "0.1.0",
+  "backend": ["fastapi", "nextjs"],
+  "frontend": ["vite-react", "nextjs-app"],
+  "llm_provider": ["openrouter", "openai", "anthropic"],
+  "theme": ["dark-minimal", "light-clean", "custom"],
+  "include_tools": "n",
+  "_copy_without_render": [
+    "*.html",
+    "node_modules/**",
+    "__pycache__/**"
+  ]
+}

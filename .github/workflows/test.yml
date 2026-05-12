@@ -1,0 +1,25 @@
+name: Test Template Generation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install cookiecutter
+      - name: Test template generation
+        run: |
+          python -m cookiecutter . --no-input -o /tmp/test-output
+          test -f /tmp/test-output/my-ai-chatbot/backend/main.py
+          test -f /tmp/test-output/my-ai-chatbot/frontend/src/components/Chat.tsx
+          test -f /tmp/test-output/my-ai-chatbot/frontend/package.json
+          echo "All files generated successfully"
