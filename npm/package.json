@@ -18,14 +18,14 @@
     "scaffolding",
     "cookiecutter"
   ],
-  "author": "",
+  "author": "Binada Matara Arachchige <binada2005@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_USERNAME/create-ai-chatbot.git"
+    "url": "https://github.com/binadacode/create-ai-chatbot.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/create-ai-chatbot/issues"
+    "url": "https://github.com/binadacode/create-ai-chatbot/issues"
   },
-  "homepage": "https://github.com/YOUR_USERNAME/create-ai-chatbot#readme"
+  "homepage": "https://github.com/binadacode/create-ai-chatbot#readme"
 }
